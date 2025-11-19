@@ -2,31 +2,30 @@
 
 ## Phase 1: Foundation & Design (Current)
 
-- [x] Initialize Next.js Project (TypeScript, App Router)
-- [x] Implement Premium Design System (Tailored CSS Variables, Glassmorphism)
-- [x] Create Dashboard Layout & Landing Page
-- [ ] Component Library (Buttons, Cards, Inputs)
+- [x] Initialize Next.js Project (Frontend Dashboard)
+- [x] Implement Premium Design System
+- [x] Create Dashboard Layout
+- [ ] **NEW**: Initialize .NET Core Web API (Backend)
 
-## Phase 2: Core Architecture
+## Phase 2: Core Architecture (Revised)
 
-- [x] Set up Database (PostgreSQL + Prisma) - *Used SQLite for local dev*
-- [x] Define Data Models (Users, Inventory, Orders, AI_Logs)
-- [ ] Authentication (NextAuth.js)
+- [ ] Create ASP.NET Core Web API Project
+- [ ] Set up Entity Framework Core (PostgreSQL/SQL Server)
+- [ ] Define Data Models (C# Classes)
+- [ ] Implement API Endpoints (Controllers)
+- [ ] Connect Next.js Frontend to .NET API
 
 ## Phase 3: AI Integration
 
-- [ ] Configure OpenAI/Anthropic API Client
-- [ ] Implement RAG (Retrieval Augmented Generation) for ERP Data
-- [ ] Create "AI Insights" Widget
+- [ ] Semantic Kernel or LangChain.NET integration
+- [ ] AI Insights Endpoints
 
 ## Phase 4: Modules
 
-- [ ] Inventory Management Module
-- [ ] Sales & CRM Module
-- [ ] Reporting & Analytics
+- [ ] Inventory Management (API + UI)
+- [ ] Sales & CRM (API + UI)
+- [ ] Reporting
 
 ## Phase 5: Polish & Deployment
 
-- [ ] Performance Optimization
-- [ ] End-to-End Testing
-- [ ] Deployment Setup (Vercel/Docker)
+- [ ] Docker Compose (Frontend + Backend + DB)
